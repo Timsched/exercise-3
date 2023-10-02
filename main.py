@@ -111,11 +111,11 @@ while space_exist():
         continue
     #
     if won:
-        # TODO
+        result= 'You win but differnetly 115'
 
         break
     elif computer_move()[1]:
-        result = '=== You lose ! =='
+        result = '=== You lose ! == line 118 differently'
         break
 print_board()
 print(result)
